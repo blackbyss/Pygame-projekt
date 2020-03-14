@@ -1,0 +1,21 @@
+--- Juhend platformeri Jaoks ---
+
+-- Käivitamine --
+
+Mängu käivitamiseks peab teil pythonis olema pygame ning siis platformer.py failis olev kood käivitada
+
+-- Kuidas mängida --
+
+Tegelast saab paremale-vasakule liigutada nooltega
+
+Tegelane hüppab, kui vajutate spacebar (all hoides saab kõrgemale hüpata)
+
+Left Control nuppu vajutades tegelane teeb võimsa hüppe, aga see maksab 50 punkti skoorist
+ ^ (Kuna platvormid võivad aeg-ajalt liiga kaugele tavalise hüppe jaoks tekkida) ^
+
+Kui tegelane läheb vaenlastele vastu või kukkub ekraani põhja siis on mäng läbi
+
+Iga 250 skoori tagant hakkavad vaenlased veidi kiiremini tekkima (max kiirus, kui skoor on 3000)
+
+
+
